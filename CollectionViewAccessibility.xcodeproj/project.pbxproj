@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19DFEB891767D43300E873A7 /* JMIAccessibleCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DFEB881767CF7B00E873A7 /* JMIAccessibleCollectionView.m */; };
 		E2BC8BF3172F235000499944 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BC8BF2172F235000499944 /* UIKit.framework */; };
 		E2BC8BF5172F235000499944 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BC8BF4172F235000499944 /* Foundation.framework */; };
 		E2BC8BF7172F235000499944 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BC8BF6172F235000499944 /* CoreGraphics.framework */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19DFEB871767CF7B00E873A7 /* JMIAccessibleCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMIAccessibleCollectionView.h; sourceTree = "<group>"; };
+		19DFEB881767CF7B00E873A7 /* JMIAccessibleCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMIAccessibleCollectionView.m; sourceTree = "<group>"; };
 		E2BC8BEF172F235000499944 /* CollectionViewAccessibility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewAccessibility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2BC8BF2172F235000499944 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E2BC8BF4172F235000499944 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -91,6 +94,8 @@
 				E2BC8C02172F235000499944 /* JMIAppDelegate.m */,
 				E2BC8C0F172F236600499944 /* JMICollectionViewController.h */,
 				E2BC8C10172F236600499944 /* JMICollectionViewController.m */,
+				19DFEB871767CF7B00E873A7 /* JMIAccessibleCollectionView.h */,
+				19DFEB881767CF7B00E873A7 /* JMIAccessibleCollectionView.m */,
 				E2BC8BF9172F235000499944 /* Supporting Files */,
 				E2BC8C12172F25DD00499944 /* JMICollectionViewCell.h */,
 				E2BC8C13172F25DD00499944 /* JMICollectionViewCell.m */,
@@ -181,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2BC8BFF172F235000499944 /* main.m in Sources */,
+				19DFEB891767D43300E873A7 /* JMIAccessibleCollectionView.m in Sources */,
 				E2BC8C03172F235000499944 /* JMIAppDelegate.m in Sources */,
 				E2BC8C11172F236600499944 /* JMICollectionViewController.m in Sources */,
 				E2BC8C14172F25DE00499944 /* JMICollectionViewCell.m in Sources */,
@@ -301,6 +307,7 @@
 				E2BC8C0E172F235000499944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

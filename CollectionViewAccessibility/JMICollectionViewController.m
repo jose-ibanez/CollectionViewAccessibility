@@ -9,6 +9,7 @@
 #import "JMICollectionViewController.h"
 #import "JMICollectionViewCell.h"
 #import "JMICollectionReusableView.h"
+#import "JMIAccessibleCollectionView.h"
 
 @interface JMICollectionViewController () <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
@@ -27,7 +28,7 @@ static NSString * const kHeaderIdentifier = @"headerIdentifier";
     flowLayout.headerReferenceSize = CGSizeMake(0.0, 50.0);
     flowLayout.scrollDirection = UICollectionViewScrollDirectionVertical;
     flowLayout.sectionInset = UIEdgeInsetsMake(5.0, 0.0, 5.0, 0.0);
-    self.collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:flowLayout];
+    self.collectionView = [[JMIAccessibleCollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:flowLayout];
     self.collectionView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
     [self.collectionView registerClass:[JMICollectionViewCell class] forCellWithReuseIdentifier:kCellIdentifier];
     [self.collectionView registerClass:[JMICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:kHeaderIdentifier];
